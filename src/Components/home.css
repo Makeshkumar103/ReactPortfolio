@@ -1,9 +1,11 @@
-.text {
+/* .text {
     text-shadow: 3px 0.5px gray;
     letter-spacing: 15px;
+} */
+.text {
+    text-shadow: 0.2rem 0.2rem gray;
+    letter-spacing: 0.7rem;
     /* color: white; */
-   
-
 }
 
 /* .shadow::before{
@@ -30,11 +32,7 @@
     border: 2px solid rgba (255,255,255,0.18);
 } */
 .Navebar,.basic-navbar-nav{
-/* background-image: linear-gradient(30deg,pink,blue);
-background-size: auto 100%;
-background-clip: padding-box;
-background-position:center;
-color: whitesmoke; */
+
 background-color: var(--background-color);
 color: var(--text-color);
 
@@ -43,7 +41,7 @@ color: var(--text-color);
     height: 200px;
     width: 200px;
     opacity: 0.5;
-    align-self: flex-start;
+    align-self:var(--background-color);
     position: absolute;
     background-color: gray;
     border-radius: 50%;

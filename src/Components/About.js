@@ -17,29 +17,35 @@ const About = () => {
 <section id='About'>
 <Container flulid-md className='p-5'>
   <h1 className='text-center'>WHO AM I</h1>
-  <Row className='m-5'> 
-      <Col>
+  <Row className='m-5 justify-content-md-center align-items-center'> 
+      <Col className='text-center mb-5'>
       {/* height={300} width={200}   in image tag*/} 
       <Image src='./image/IMG_1.jpg' className='image-center box' ></Image>
       </Col>
-      <Col>
+      <Col className='text-center'>
+      <Stack >
       <h3 className='cal'>I am Daynamic and Creative</h3>
       <p>I am a Front-end developer, It is a long time fact that a reader will be distracted by the readable content of the page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
-      {/* <br /> */}
       <h5 className='text-center'>Skills</h5>
-      <Container fluid-md >
-        {/* <Stack direction='horizontal' gap={5} className='mx-auto'> */}
-        <Container fluid-md >
-        <FontAwesomeIcon icon={faHtml5} color='orange' size='2x' className='rounded'/>
-        <FontAwesomeIcon icon={faCss3} color='blue' size='2x' className='rounded'/>
-        <FontAwesomeIcon icon={faJs} color='yellow' size='2x' className='rounded'/>
-        <FontAwesomeIcon icon={faReact} color='blue' size='2x'  className='rounded'/>
-        <FontAwesomeIcon icon={faBootstrap} color='violet' size='2x' className='rounded'/>
+      <Container fluid>
+        <FontAwesomeIcon icon={faHtml5} color='orange' size='2x' className='rdd text-center'/>
+        <FontAwesomeIcon icon={faCss3} color='blue' size='2x' className='rdd'/>
+        <FontAwesomeIcon icon={faJs} color='yellow' size='2x' className='rdd'/>
+        <FontAwesomeIcon icon={faReact} color='blue' size='2x'  className='rdd'/>
+        <FontAwesomeIcon icon={faBootstrap} color='violet' size='2x' className='rdd'/>
         </Container>
-          
-        {/* </Stack> */}
-          
-      {/*
+      </Stack>
+      </Col>
+  </Row>
+
+  </Container>
+</section>
+</>
+  )
+}
+
+export default About
+ {/*
       <Col className='icons'>
        <Row>
         <Col> <FontAwesomeIcon icon={faHtml5} color='orange' size='2x'/></Col>
@@ -62,16 +68,3 @@ const About = () => {
         <Col> <ProgressBar animated striped variant="violet" now={50} label={`${50}%`} /></Col>
         </Row>
         </Col> */}
-      
-      </Container>
-      <p> </p>
-      </Col>
-  </Row>
-
-  </Container>
-</section>
-</>
-  )
-}
-
-export default About
