@@ -45,26 +45,3 @@ const About = () => {
 }
 
 export default About
- {/*
-      <Col className='icons'>
-       <Row>
-        <Col> <FontAwesomeIcon icon={faHtml5} color='orange' size='2x'/></Col>
-        <Col> <ProgressBar animated striped variant="warning" now={50} label={`${50}%`} /></Col>
-        </Row>
-      <Row>
-        <Col> <FontAwesomeIcon icon={faCss3} color='blue' size='2x'/></Col>
-        <Col> <ProgressBar animated striped variant="blue" now={50} label={`${50}%`} /></Col>
-        </Row>
-      <Row>
-        <Col> <FontAwesomeIcon icon={faJs} color='yellow' size='2x'/></Col>
-        <Col> <ProgressBar animated striped variant="warning" now={50} label={`${50}%`} /></Col>
-        </Row>
-        <Row>
-        <Col> <FontAwesomeIcon icon={faReact} color='blue' size='2x' /></Col>
-        <Col> <ProgressBar animated striped variant="info" now={50} label={`${50}%`} /></Col>
-        </Row>
-        <Row>
-        <Col> <FontAwesomeIcon icon={faBootstrap} color='violet' size='2x'/></Col>
-        <Col> <ProgressBar animated striped variant="violet" now={50} label={`${50}%`} /></Col>
-        </Row>
-        </Col> */}
