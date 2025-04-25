@@ -15,14 +15,14 @@ const About = () => {
   return (
 <>
 <section id='About'>
-<Container flulid-md className='p-5'>
+<Container flulid-md className='mt-3 pt-5'>
   <h1 className='text-center'>WHO AM I</h1>
-  <Row className='m-5 justify-content-md-center align-items-center'> 
-      <Col className='text-center mb-5'>
+  <Row className='m-5'> 
+      <Col className='mb-5 text-center' lg={4} md={6} sm={12}>
       {/* height={300} width={200}   in image tag*/} 
-      <Image src='./image/IMG_1.jpg' className='image-center box' ></Image>
+      <Image src='./image/IMG_1.jpg' className='text-center box mb-4' ></Image>
       </Col>
-      <Col className='text-center'>
+      <Col className='text-center align-content-center' lg={8} md={6} sm={12}>
       <Stack >
       <h3 className='cal'>I am Daynamic and Creative</h3>
       <p>I am a Front-end developer, It is a long time fact that a reader will be distracted by the readable content of the page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>

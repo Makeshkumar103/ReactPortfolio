@@ -16,10 +16,10 @@ const Services = () => {
    <Container fluid-md>
    <h1 className='text-center' font-family='roboto'>Explore Premium Features</h1>
    <p className='text-center'>With our app Explore Premium Features you can acces a range of unique feature and discover something new.</p>
-   <Container>
+   <Container className='text-center mb-5'>
    <Row lg={3}>
-    <Col className='my-3'>
-    <Card style={{ width: '18rem' }}>
+    <Col className='my-3 text-center'>
+      <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title><FontAwesomeIcon icon={faGithub} /></Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
@@ -29,8 +29,8 @@ const Services = () => {
       </Card.Body>
     </Card>
     </Col>
-    <Col className='my-3'>
-    <Card style={{ width: '18rem' }}>
+    <Col className='my-3 text-center'>
+    <Card style={{ width: '18rem' }} className='m-auto'>
       <Card.Body>
         <Card.Title><FontAwesomeIcon icon={faPinterest} /> 
         </Card.Title>
@@ -42,8 +42,8 @@ const Services = () => {
       </Card.Body>
     </Card>
     </Col>
-    <Col className='my-3'>
-    <Card style={{ width: '18rem' }}>
+    <Col className='my-3 text-center'>
+     <Card style={{ width: '18rem' }} className='m-auto'>
       <Card.Body>
         <Card.Title><FontAwesomeIcon icon={faCopyright} /> 
         </Card.Title>
@@ -54,8 +54,8 @@ const Services = () => {
       </Card.Body>
     </Card>
     </Col>
-     <Col className='my-3'>
-     <Card style={{ width: '18rem' }}>
+     <Col className='my-3 text-center'>
+      <Card style={{ width: '18rem' }} className='m-auto'>
       <Card.Body>
         <Card.Title><FontAwesomeIcon icon={faDisplay} /> 
         </Card.Title>
@@ -65,8 +65,8 @@ const Services = () => {
       </Card.Body>
     </Card>
     </Col> 
-    <Col className='my-3'>
-    <Card style={{ width: '18rem' }}>
+    <Col className='my-3 text-center'>
+     <Card style={{ width: '18rem' }} className='m-auto'>
       <Card.Body>
         <Card.Title>      <FontAwesomeIcon icon={faPinterest} /> 
         </Card.Title>
@@ -78,8 +78,8 @@ const Services = () => {
       </Card.Body>
     </Card>
     </Col>
-    <Col className='my-3'>
-    <Card style={{ width: '18rem' }}>
+    <Col className='my-3 text-center'>
+     <Card style={{ width: '18rem' }} className='m-auto'>
       <Card.Body>
         <Card.Title><FontAwesomeIcon icon={faCode} /> 
         </Card.Title>

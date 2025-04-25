@@ -13,9 +13,10 @@ const Projects = () => {
   <section id='Projects'>
    <Container fluid-md>
    <h1 className='text-center'>WEB DEVELOPEMENT</h1>
-   <Row className='p-3'>
+   <Container className='text-center mb-5'>
+   <Row lg={3}>
     {/* <Col className='my-3'>
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title>Zomato Clone</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
@@ -26,7 +27,7 @@ const Projects = () => {
     </Card>
     </Col> */}
     <Col className='my-3'>
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title>Zomato Clone</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
@@ -37,7 +38,7 @@ const Projects = () => {
     </Card>
     </Col>
     <Col className='my-3'>
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title>Personal Portfolio</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
@@ -48,7 +49,7 @@ const Projects = () => {
     </Card>
     </Col>
     <Col className='my-3'>
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title>React Dahsboard</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
@@ -58,7 +59,8 @@ const Projects = () => {
       </Card.Body>
     </Card>
     </Col>
-    </Row>     
+    </Row>   
+    </Container>  
     </Container> 
     <Analytics />
     </section>    

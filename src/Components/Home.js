@@ -60,7 +60,7 @@ const Home = () => {
   <Container flulid-md className='mt-5 p-5' >
     <Row className="justify-content-md-center align-items-center ">
     {/*  <Col xs={12} md={8} className='justify-content-center ' >*/}
-      <Col className='mb-3'>
+      <Col className='mb-3  justify-content-center text-center' xs={12} md={8}>
         <Stack>
         <h5 className='text-center'>Hi there! I'm</h5>
         <h3 className='text text-center'>MAKESHKUMAR</h3>
@@ -73,10 +73,10 @@ const Home = () => {
           <a href='www.google.com'><Button variant="outline-secondary" > Download Resume</Button></a>          
         </Stack>
         <Stack direction='horizontal' gap={5} className='justify-content-center'>
-        <button onClick={gitHub} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-color)'}}><FontAwesomeIcon icon={faGithub} animation="glow"/></button>
-        <button onClick={linkedIn} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-color)'}}><FontAwesomeIcon icon={faLinkedinIn} /></button>
-        <button onClick={pinterest} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-color)'}}><FontAwesomeIcon icon={faPinterest} /></button>
-        <FontAwesomeIcon icon={faXTwitter} onClick={twitter} color='var(--text-color)' />   
+        <button onClick={gitHub} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-color)'}}><FontAwesomeIcon icon={faGithub} animation="glow" size='2xl'/ ></button>
+        <button onClick={linkedIn} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-color)'}}><FontAwesomeIcon icon={faLinkedinIn} size='2xl'/></button>
+        <button onClick={pinterest} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-color)'}}><FontAwesomeIcon icon={faPinterest} size='2xl'/></button>
+        <FontAwesomeIcon icon={faXTwitter} onClick={twitter} color='var(--text-color)' size='2xl' />   
 
         </Stack>
         

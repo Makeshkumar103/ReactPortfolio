@@ -14,7 +14,7 @@ const Analytics = () => {
    <h1 className='text-center'>Data Analyst Projcets</h1>
    <Row className='p-3'>
     <Col className='my-3'>
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title>Excel Project</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Personal Expence Tracker</Card.Subtitle>
@@ -25,7 +25,7 @@ const Analytics = () => {
     </Card>
     </Col>
     <Col className='my-3'>
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title>Resume Analyzer NLP</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
@@ -36,7 +36,7 @@ const Analytics = () => {
     </Card>
     </Col>
     <Col className='my-3'>
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: '18rem' }} className='m-auto'>
     <Card.Body>
       <Card.Title>Road Accident Data</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
