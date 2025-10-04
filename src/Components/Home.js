@@ -64,8 +64,7 @@ const Home = () => {
         <Stack>
         <h5 className='text-center'>Hi there! I'm</h5>
         <h3 className='text text-center'>MAKESHKUMAR</h3>
-        <h5 className='text-center'>Front-end Developer 
-          & Designer</h5>
+        <h5 className='text-center'>Front-end Developer</h5>
           <Stack direction='horizontal' gap={2} className=' justify-content-center mb-3'>
           
           <Button variant="outline-secondary" > Hire Me</Button>
