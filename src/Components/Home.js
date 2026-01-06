@@ -1,15 +1,8 @@
 import React from 'react';
 import useTheme from './useTheme';
-
+import { motion } from 'framer-motion';
+import {Container, Row, Col, Image, Button, Nav, Navbar, Stack} from 'react-bootstrap';
 import './home.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Image from 'react-bootstrap/Image';
-import Stack from 'react-bootstrap/esm/Stack';
 // import Resumebutton from './Resumebutton';
 // import {Makesh_Resumepdf} from './photo';cd
 // import { ArrowBarLeft, ArrowRight } from 'react-bootstrap-icons';
@@ -61,6 +54,11 @@ const Home = () => {
     <Row className="justify-content-md-center align-items-center ">
     {/*  <Col xs={12} md={8} className='justify-content-center ' >*/}
       <Col className='mb-3  justify-content-center text-center' xs={12} md={8}>
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+        >
         <Stack>
         <h5 className='text-center'>Hi there! I'm</h5>
         <h3 className='text text-center'>MAKESHKUMAR</h3>
@@ -80,11 +78,17 @@ const Home = () => {
         </Stack>
         
         </Stack>
-       
+        </motion.div>
         </Col>
         {/* <Col md={4} className='justify-content-center'> */}
         <Col xs={12} md={4}>
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+        >
         <Image src='./image/Rimage.jpg' roundedCircle fluid  className='mt-5'/>
+        </motion.div>
         {/* style={{borderRadius:"200px", boxShadow:" 50px -40px var(--text-color)"}} */}
       </Col>
       {/* <Col md={4}>
