@@ -1,97 +1,101 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+
 // import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faPinterest } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faPinterest  } from '@fortawesome/free-brands-svg-icons';
+// import { faPinterest } from '@fortawesome/free-brands-svg-icons';
 import { faCode, faCopyright, faDisplay } from '@fortawesome/free-solid-svg-icons';
 import '@fontsource/roboto';
+
 const Services = () => {
+
   return (
   <>
   <section id='Services'>
    <Container fluid-md>
-   <h1 className='text-center' font-family='roboto'>Explore Premium Features</h1>
-   <p className='text-center'>With our app Explore Premium Features you can acces a range of unique feature and discover something new.</p>
-   <Container className='text-center mb-5'>
-   <Row lg={3}>
-    <Col className='my-3 text-center'>
-      <Card style={{ width: '18rem' }} className='m-auto'>
-    <Card.Body>
-      <Card.Title><FontAwesomeIcon icon={faGithub} /></Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
-        <Card.Text>
-        It is a long established fact that a reader will be distracted by the readable content of a page when locking at its layout.
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-    <Col className='my-3 text-center'>
-    <Card style={{ width: '18rem' }} className='m-auto'>
-      <Card.Body>
-        <Card.Title><FontAwesomeIcon icon={faPinterest} /> 
-        </Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">App Design</Card.Subtitle>
-        <Card.Text>
-        It is a long established fact that a reader will be distracted by the readable content of a page when 
-        locking at its layout.
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-    <Col className='my-3 text-center'>
-     <Card style={{ width: '18rem' }} className='m-auto'>
-      <Card.Body>
-        <Card.Title><FontAwesomeIcon icon={faCopyright} /> 
-        </Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Front-end Development</Card.Subtitle>
-        <Card.Text>
-          It is a long established fact that a reader will be distracted by the readable content of a page when locking at its layout.
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-     <Col className='my-3 text-center'>
-      <Card style={{ width: '18rem' }} className='m-auto'>
-      <Card.Body>
-        <Card.Title><FontAwesomeIcon icon={faDisplay} /> 
-        </Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Front-end Development</Card.Subtitle>
-        <Card.Text>It is a long established fact that a reader will be distracted by the readable content of a page whenlocking at its layout.
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col> 
-    <Col className='my-3 text-center'>
-     <Card style={{ width: '18rem' }} className='m-auto'>
-      <Card.Body>
-        <Card.Title>      <FontAwesomeIcon icon={faPinterest} /> 
-        </Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">App Design</Card.Subtitle>
-        <Card.Text>
-        It is a long established fact that a reader will be distracted by the readable content of a page when 
-        locking at its layout.
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-    <Col className='my-3 text-center'>
-     <Card style={{ width: '18rem' }} className='m-auto'>
-      <Card.Body>
-        <Card.Title><FontAwesomeIcon icon={faCode} /> 
-        </Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Front-end Development</Card.Subtitle>
-        <Card.Text>
-          It is a long established fact that a reader will be distracted by the readable content of a page when locking at its layout.
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col> 
-   
-    </Row>     
+    <h1 className='text-center' font-family='roboto'>Explore Premium Features</h1>
+    <p className='text-center'>With our app Explore Premium Features you can acces a range of unique feature and discover something new.</p>
+    <Container className='text-center mb-5'>
+      <Row lg={3}>
+        <Col className='my-3 text-center'>
+          <Card style={{ width: '18rem' }} className='m-auto'>
+            <Card.Body>
+              <Card.Title><FontAwesomeIcon icon={faGithub} /></Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Git Version Control</Card.Subtitle>
+                <Card.Text>
+                It is a long established fact that a reader will be distracted by the readable content of a page when locking at its layout.
+                </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col className='my-3 text-center'>
+          <Card style={{ width: '18rem' }} className='m-auto'>
+            <Card.Body>
+              <Card.Title><FontAwesomeIcon icon={faPinterest} /> 
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">App Design</Card.Subtitle>
+              <Card.Text>
+              It is a long established fact that a reader will be distracted by the readable content of a page when 
+              locking at its layout.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col className='my-3 text-center'>
+          <Card style={{ width: '18rem' }} className='m-auto'>
+            <Card.Body>
+              <Card.Title><FontAwesomeIcon icon={faCopyright} /> 
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Front-end Development</Card.Subtitle>
+              <Card.Text>
+                It is a long established fact that a reader will be distracted by the readable content of a page when locking at its layout.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col className='my-3 text-center'>
+          <Card style={{ width: '18rem' }} className='m-auto'>
+            <Card.Body>
+              <Card.Title><FontAwesomeIcon icon={faDisplay} /> 
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Front-end Development</Card.Subtitle>
+              <Card.Text>It is a long established fact that a reader will be distracted by the readable content of a page whenlocking at its layout.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col> 
+
+        <Col className='my-3 text-center'>
+          <Card style={{ width: '18rem' }} className='m-auto'>
+            <Card.Body>
+              <Card.Title>      <FontAwesomeIcon icon={faPinterest} /> 
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">App Design</Card.Subtitle>
+              <Card.Text>
+              It is a long established fact that a reader will be distracted by the readable content of a page when 
+              locking at its layout.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col className='my-3 text-center'>
+          <Card style={{ width: '18rem' }} className='m-auto'>
+            <Card.Body>
+              <Card.Title><FontAwesomeIcon icon={faCode} /> 
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Front-end Development</Card.Subtitle>
+              <Card.Text>
+                It is a long established fact that a reader will be distracted by the readable content of a page when locking at its layout.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col> 
+      </Row>     
     </Container>    
     </Container>
     {/* <Container fluid-md >
