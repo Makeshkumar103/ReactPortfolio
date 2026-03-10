@@ -69,8 +69,10 @@ const Home = () => {
             
             <Button variant="outline-secondary" > Hire Me</Button>
             {/* style={{background:'blue',cursor:'pointer',color:'white',borderRadius:'15px',padding:'5px'}} */}
-            <a href='www.google.com'><Button variant="outline-secondary" > Download Resume</Button></a>          
-            </Stack>
+            <a href='/Frontend UI Developer.pdf' target='_blank' rel='noopener noreferrer'>
+              <Button variant="outline-secondary" > Download Resume</Button>
+            </a>
+          </Stack>
 
             <Stack direction='horizontal' gap={5} className='justify-content-center'>
             <button onClick={gitHub} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-color)'}}><FontAwesomeIcon icon={faGithub} animation="glow" size='2xl'/ ></button>

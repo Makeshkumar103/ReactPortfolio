@@ -6,6 +6,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import '@fontsource/roboto';
+import BackToTop from './Components/BackToTop';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services/>
       <Projects />
       <Contact/>
+      <BackToTop />
     </>
     
   );

@@ -13,3 +13,34 @@ body {
         color: var(--text-color);
         font-family: 'Roboto';
 } 
+
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.to-top:hover {
+  background: #333;
+}
+
+.card{
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
