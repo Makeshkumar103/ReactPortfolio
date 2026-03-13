@@ -7,18 +7,20 @@ import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import '@fontsource/roboto';
 import BackToTop from './Components/BackToTop';
+import Chatbot from './Components/Chatbot';
 
 function App() {
   return (
     <>
-      <Home/>
-      <About/>
-      <Services/>
+      <Home />
+      <About />
+      <Services />
       <Projects />
-      <Contact/>
+      <Contact />
       <BackToTop />
+      <Chatbot />
     </>
-    
+
   );
 }
 
